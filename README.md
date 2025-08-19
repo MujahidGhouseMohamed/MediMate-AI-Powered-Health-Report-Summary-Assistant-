@@ -1,8 +1,11 @@
 
-# MediMate — Upgraded (Production-ready) 
+# MediMate AI Powered Health Report Summary Assistant
 
-This upgraded MediMate includes:
-- Improved chunking (section-aware + overlap)
+This MediMate includes:
+- Built a medical assistant that summarizes health reports and answers user queries using LLM + RAG.
+- Implemented PDF parsing and chunk embedding with PyMuPDF + Sentence Transformers, and vector retrieval with FAISS.
+- Deployed the solution via a Streamlit UI for easy report upload and interactive Q&A with the assistant.  
+-  PyMuPDF for chunking (section-aware + overlap)
 - Metadata (page, section) captured and persisted
 - FAISS index persistence + SQLite metadata store
 - Streamlit app with session chat, highlighted context, downloadable summary
